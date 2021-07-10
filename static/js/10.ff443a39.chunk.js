@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-kam-1"]=this["webpackJsonpreact-kam-1"]||[]).push([[10],{297:function(t,c,e){},301:function(t,c,e){"use strict";e.r(c);e(297);var n=e(2);c.default=function(t){return Object(n.jsx)("div",{children:Object(n.jsx)("div",{children:"Settings"})})}}}]);
+//# sourceMappingURL=10.ff443a39.chunk.js.map
