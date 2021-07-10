@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-area: h;
+  padding: 0 15px;
+  background-color: #222222;
+}
+
+.header p {
+  margin: 5px 0 0 0;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 22px;
+}
+
+.loginBlock a {
+  color: #eee;
+  text-decoration: none;
+}

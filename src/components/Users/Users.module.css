@@ -1,0 +1,68 @@
+.usersList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.userLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.userPhoto {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.follow {
+  width: 70%;
+  background-color: transparent;
+  color: inherit;
+  border: 1px solid #a45deb;
+  border-radius: 5px;
+  padding: 3px 0;
+  transition: 0.3s;
+}
+
+.follow:hover,
+.follow:active {
+  background-color: #a45deb;
+}
+
+.follow:disabled {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #5a5a5a;
+  cursor: default;
+  border-color: #5a5a5a;
+}
+
+p {
+  margin: 10px 0;
+}
+
+button {
+  color: inherit;
+  background-color: transparent;
+  border: 1px solid rgba(164, 93, 235, 0.5);
+  border-radius: 5px;
+  margin: 2px;
+  transition: 0.25s;
+}
+
+button:hover {
+  background-color: rgba(164, 93, 235, 0.7);
+}

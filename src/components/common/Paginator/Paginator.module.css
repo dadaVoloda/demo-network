@@ -1,0 +1,19 @@
+.selectedPage {
+  font-weight: bold;
+  background-color: #a45deb;
+}
+
+
+.prev,
+.next {
+  border: none;
+}
+
+.prev:hover {
+  transform: translateX(-3px);
+  background-color: transparent;
+}
+.next:hover {
+  transform: translateX(3px);
+  background-color: transparent;
+}
